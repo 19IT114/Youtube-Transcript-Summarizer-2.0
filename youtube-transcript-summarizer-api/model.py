@@ -61,6 +61,7 @@ def nlp_model(v_id):
     transcript = get_transcript_of_yt_video(v_id)
 
     if (transcript == '0'):
+
         return '0'
 
     else:
@@ -101,3 +102,47 @@ def nlp_model(v_id):
         makeTextFile("Gujarati", gujarati_translated_summary)
 
         return original_text_length, final_summary_length, english_summary, hindi_translated_summary, gujarati_translated_summary
+
+def text_model(transcript):
+
+        transcript_size = len(transcript)
+
+        original_text = transcript
+        original_text_length = len(original_text)
+        # print(transcript)
+        s_t = text_summarizer(transcript)
+
+        # result = text_summarizer(transcript)
+
+        # for txt in range(0, transcript_size):
+        #     if (txt != 0 and txt % 100 == 0):
+        #         result += ' ' + transcript[txt]['text']
+        #         s_t.append(text_summarizer(result))
+        #         result = ""
+        #     else:
+        #         result += ' ' + transcript[txt]['text']
+
+        #     if (txt == transcript_size - 1):
+        #         result += ' ' + transcript[txt]['text']
+        #         s_t.append(text_summarizer(result))
+
+        english_summary = ' '.join(s_t) + '.'
+
+        final_summary_length = len(english_summary)
+
+        hindi_translated_summary = ''
+        # g_translate(english_summary, 'hi')
+
+        gujarati_translated_summary = ''
+        # g_translate(english_summary, 'gu')
+
+        # print(original_text_length, '-->', final_summary_length)
+        # print(final_smy)
+
+        makeTextFile("English", english_summary)
+        makeTextFile("Hindi", hindi_translated_summary)
+        makeTextFile("Gujarati", gujarati_translated_summary)
+
+        return original_text_length, final_summary_length, english_summary, hindi_translated_summary, gujarati_translated_summary
+
+   

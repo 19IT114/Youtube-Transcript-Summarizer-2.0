@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "yts-project-150722",
+  "private_key_id": "dd84996dd2e0806a89f491c1888b88d8eb86d09e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCn9WQ35uJCQa7T\nrII6WqqeJOSd3jjLlSvEdPYtNevmfjCBhm0jYY4G3+eoJ/y5US64hKkr4tJ1jQSI\ni6VLR0BP4UNCKiBFUYX+Yna9nMIxkJK0MbPjeFFuli4VgNoVgFdQNluJEuwElXrz\naKhV9YCrefx9CGlm4sSFagon0/Xxr7RLX6ruYRY0Vwk2M3XHafcUe9mScDroYLqa\ndbCQCA97eDwkJeyHs4q+YD4Mr3IsvJZxr/7DML59UnVWMUdgj4ioHUoKu0g2O0GN\nl/i5ja6+T/lrMdWhu5ijzGE+CROKtqfSRemSSnTUKRxbfpBfQAfBur+dbTrikQmU\nZR3GwNWPAgMBAAECgf8Nrn88+8n75qKC2hoyBFxrAlfoE9RnGHS88AJV3mw//LZa\nt3+WlDAWkTlmpPp0XIY/0s0UQvupqm8qvMs9UFhW8UEMc+Um0x+UA2sS59FNu2yo\nR0s6k8RySi1qWs/+4+XhfWBbX/1D/mxWuMveZqRZRxN18Dl6FVZEQzmWzMZVCMy7\nmWGzJP0JOVABOVQxiDkOaEFS/6XFf4ZX14YuVqlXLHp0IlghJ7BY/c/aZ0FUyEhf\nMB6sffIrDvRUQmB6f1jA4HweLduehTb722msBjk+cPr2o9wIf7KLZWHcrwmX0isJ\nOH7zxxKspskCMhOl0P/adZBY87j513gflS4ozOkCgYEA2ZxNf6LomoXkqhMLH4Zr\nR133VbtsittGYoYEY0AYzc0DpIg0h80LwVXDD9jOFooKiawGdjXXm5KjZ2vM2AGA\nYQo4mh3JiaOQiac5TCwlWX7eTupSsJMfdt/7qIX7vz6doDrp5VAdsalnFCOAebCg\nzdT5aJAAlMyctgqHBsc2/vsCgYEAxZa2VztuPPvI0M2Gv50f5nf9P5OGR67LjdPC\nRr5O6DQ4iZ6apg7zEuHoxTgfza2cvaFYC5izb9iqQXKymTb7viMVQwCjmFPv0z62\nn8UfXCKfHn+LFjRtvFR7sClRob3RG5x3nrrGWjY5i6Sd071oRhAlA35CK5xaDU4+\nqntu730CgYAUeUY5WgR0dWB8N+p1/tmdD1Qz9rxRnCvVHTLQe7lZs45CLqZymHIg\nsIb3uLg7GqW/KjY5bPtqIbPKCTRupkWD28hTh7Xsgz0YFmmnpwekkfEsj5NUFaOC\nNbShuGllJukBqElVT+JbUsrl9CkkSd/3PbBxjArh9RZRclAd7SRZfQKBgGji0RZL\nSQB8U6RrhX0PxlBMH5XxFNXWdt1prHZrLW3b0qtTExrVUrkSTMLsQQ2ofEy5agh1\n3cKgi/hED4R/iHDtJKs1mqIQ5H0JjF4RgM0i376Ly+RUnm/blPD1bgziuy7iBymu\nUf6vTCrRjqpIoCKZDVzmV+/YhoELqP5MmZ3tAoGAZXd7WNdOtakuxGKWzSuU+mvl\nT4RLljFBx/0Wa/htQ3BBu2qAKSIUhtLLXQkA96dBiNTpSkPNkvduxHAg9Rhp4hac\nM/14mrFmNO0ZBWdTc2RE1a8970Gr3elSghE3UFM8xCSnWPoZSDWx8gU4ImI4uhQ0\ndoZcTDVE9ibC4881cxA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "yts-service-account@yts-project-150722.iam.gserviceaccount.com",
+  "client_id": "113196711187189581734",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yts-service-account%40yts-project-150722.iam.gserviceaccount.com"
+}
